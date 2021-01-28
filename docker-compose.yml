@@ -6,7 +6,7 @@ services:
     hostname: '10.250.10.2'
     environment:
       GITLAB_OMNIBUS_CONFIG: |
-        external_url 'https://10.250.10.2:8929'
+        external_url 'http://10.250.10.2:8929'
         #Add any other gitlab.rb configuration here, each on its own line
         gitlab_rails['gitlab_shell_ssh_port'] = 2224
 
